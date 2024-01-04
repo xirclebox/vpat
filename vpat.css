@@ -7,7 +7,8 @@
   --space--12: 12px;
   --space--16: 16px;
   --space--20: 20px;
-  --space--24: 24px; }
+  --space--24: 24px;
+  --space--36: 36px; }
 
 html {
   box-sizing: border-box; }
@@ -21,13 +22,20 @@ html {
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-  line-height: 1.3; }
+  line-height: 1.5; }
+  .vpat .vpat__section {
+    margin-bottom: var(--space--36); }
   .vpat .heading__page {
     font-size: 36px;
     font-weight: 700; }
   .vpat .heading__section {
-    font-size: 24px;
-    font-weight: 700; }
+    font-size: 28px; }
+  .vpat .heading__criteria {
+    font-size: 20px; }
+  .vpat .heading__section,
+  .vpat .heading__criteria {
+    font-weight: 700;
+    margin-bottom: var(--space--8); }
   .vpat .text--bold {
     font-weight: 700; }
   .vpat .vpat__table {
@@ -38,7 +46,7 @@ html {
     font-family: sans-serif;
     min-width: 320px;
     width: 100%; }
-    .vpat .vpat__table .table__th {
+    .vpat .vpat__table th {
       font-size: 16px;
       padding: var(--space--16) var(--space--8);
       text-align: left; }
@@ -51,5 +59,8 @@ html {
         margin: 0 0 var(--space--8) 0; }
       .vpat .vpat__table td p:last-of-type {
         margin-bottom: 0; }
+  .vpat .vpat__table td, .vpat .vpat__table th {
+    border: var(--border);
+    border-collapse: collapse; }
 
 /*# sourceMappingURL=vpat.css.map */
