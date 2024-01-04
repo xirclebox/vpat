@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VPAT Template VPAT 2.5 WCAG: WCAG 2.2</title>
+    <link href="vpat.css" rel="stylesheet" />
   </head>
 
   <body>
-    <main>
-      <h1>VPAT Template VPAT 2.5 WCAG: WCAG 2.2</h1>
+    <main class="vpat">
+      <h1 class="heading__page">VPAT Template VPAT 2.5 WCAG: WCAG 2.2</h1>
       <p>Last Audit: [date of recent audit]</p>
-      <h2>About This Document</h2>
+      <h2 class="heading__section">About This Document</h2>
       <p>
         The VPAT is a template used to document a product's conformance with
         accessibility standards and guidelines. The purpose of the Accessibility
@@ -49,19 +50,19 @@
       <ul>
         <li>
           <span class="text--bold">Name of Product/Version:</span>
-          [product name]
+          [Product Name]
         </li>
         <li>
           <span class="text--bold">App Report Date:</span>
-          [date of audit]
+          [Date of Audit]
         </li>
         <li>
           <span class="text--bold">Contact Information:</span>
-          Homer Gaines, CPACC
+          [Reviewer]
         </li>
       </ul>
 
-      <h2>Evaluation Methods Used:</h2>
+      <h2 class="heading__section">Evaluation Methods Used:</h2>
       <p>
         The [product name] application was tested using both automated and
         manual methods.
@@ -85,20 +86,24 @@
         </li>
       </ul>
 
-      <h2>Applicable Standards/Guidelines</h2>
+      <h2 class="heading__section">Applicable Standards/Guidelines</h2>
 
-      <table class="">
+      <table class="vpat__table">
         <thead>
           <tr>
-            <th>Standard/Guideline</th>
-            <th>Included In Report</th>
+            <th class="table__th">Standard/Guideline</th>
+            <th class="table__th">Included In Report</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>
+            <td class="table__td">
               <span class="text--bold"
-                >Web Content Accessibility Guidelines 2.0</span
+                ><a
+                  href="http://www.w3.org/TR/2008/REC-WCAG20-20081211"
+                  target="_blank"
+                  >Web Content Accessibility Guidelines 2.0</a
+                ></span
               >
             </td>
             <td>
@@ -110,7 +115,9 @@
           <tr>
             <td>
               <span class="text--bold"
-                >Web Content Accessibility Guidelines 2.1</span
+                ><a href="https://www.w3.org/TR/WCAG21" target="_blank"
+                  >Web Content Accessibility Guidelines 2.1</a
+                ></span
               >
             </td>
             <td>
@@ -122,7 +129,9 @@
           <tr>
             <td>
               <span class="text--bold"
-                >Web Content Accessibility Guidelines 2.2</span
+                ><a href="https://www.w3.org/TR/WCAG22/" target="_blank"
+                  >Content Accessibility Guidelines 2.2</a
+                ></span
               >
             </td>
             <td>
@@ -134,7 +143,7 @@
         </tbody>
       </table>
 
-      <h2>Terms</h2>
+      <h2 class="heading__section">Terms</h2>
       <p>
         The terms used in the Conformance Level information are defined as
         follows:
@@ -164,20 +173,19 @@
         </li>
       </ul>
 
-      <h2>Legal Disclaimer</h2>
+      <h2 class="heading__section">Legal Disclaimer</h2>
       <p>
-        The information in this document describes this product's ability to
-        support the applicable standards, as interpreted by [COMPANY Name], and,
-        consistent with [COMPANY NAME] terms of service, does not guarantee
-        accessibility. This document is provided for information purposes only
-        and the contents hereof are subject to change without notice. [COMPANY
-        NAME] does not warrant that this document or this product is error free,
-        nor does it provide any other warranties or guarantees regarding the
-        product. [COMPANY NAME] specifically disclaims any liability with
-        respect to this document, your ability or inability to access this
-        product, or your use of this product, and no contractual obligations are
-        formed either directly or indirectly by this document or your access,
-        inability to access or use of this product.
+        This document describes the applicability of relevant standards to this
+        product, as interpreted by [COMPANY NAME]. Please note that this
+        document does not constitute a guarantee of accessibility under [COMPANY
+        NAME]'s terms of service. It is provided for informational purposes only
+        and may be subject to change without prior notice. [COMPANY NAME] does
+        not warrant the accuracy of this document or the product itself, nor
+        does it offer any other warranties or guarantees. [COMPANY NAME]
+        expressly disclaims any liability relating to this document, your
+        ability or inability to access this product, or your use of this
+        product. This document does not create any contractual obligations,
+        either directly or indirectly.
       </p>
     </main>
   </body>
