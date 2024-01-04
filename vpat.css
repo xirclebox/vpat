@@ -49,5 +49,7 @@ html {
       vertical-align: top; }
       .vpat .vpat__table td p {
         margin: 0 0 var(--space--8) 0; }
+      .vpat .vpat__table td p:last-of-type {
+        margin-bottom: 0; }
 
 /*# sourceMappingURL=vpat.css.map */

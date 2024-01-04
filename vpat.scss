@@ -66,6 +66,10 @@ html {
       p {
         margin: 0 0 var(--space--8) 0;
       }
+
+      p:last-of-type {
+        margin-bottom: 0;
+      }
     }
   }
 }
